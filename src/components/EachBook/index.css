@@ -1,0 +1,77 @@
+.eachBook {
+  width: 22%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 7%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px;
+  cursor: pointer;
+}
+
+.coverImage {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.whole-content {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.property {
+  color: darkslateblue;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.details {
+  color: green;
+  font-family: fantasy 2;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.eachBook:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgb(0, 131, 188);
+}
+
+.like-button {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+.liked-button {
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  color: blue;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
